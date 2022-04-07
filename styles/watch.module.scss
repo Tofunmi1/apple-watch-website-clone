@@ -1,0 +1,52 @@
+@font-face { 
+ font-family: 'SF-pro-regular';
+ src: url('/fonts/SFPRODISPLAYREGULAR.OTF') 
+ format('opentype'); 
+}
+
+@font-face { 
+ font-family: 'SF-pro-semi-bold';
+ font-weight: 700;
+ src: url('/fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF') 
+ format('opentype'); 
+}
+
+@font-face { 
+ font-family: 'SF-pro-bold';
+ src: url('/fonts/SFPRODISPLAYBOLD.OTF') 
+ format('opentype'); 
+}
+
+.mainContainer {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column; 
+ background-color: rgb(245,245,247);
+ position: absolute;
+ 
+ h1{
+  font-family: 'SF-pro-regular';
+ }
+ 
+ h2{
+  font-family: 'SF-pro-semi-bold';
+ }
+ 
+ h3{
+  font-family: 'SF-pro-bold';
+  font-weight: 600;
+ }
+ .imgBanner{
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  background-repeat: no-repeat;
+  width: 654px;
+  height: 566px;
+  background-repeat: no-repeat;
+  background-image: url("/img/hero_s7__ep2maoos292e_medium.jpg");
+ }
+}
